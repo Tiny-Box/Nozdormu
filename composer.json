@@ -1,0 +1,31 @@
+{
+    "name": "tinybox/nozdormu",
+    "description": "A simple voyager db table backup tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tiny-Box",
+            "email": "tinybox.17@gmail.com"
+        }
+    ],
+    "minimum-stability": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "TinyBox\\Nozdormu\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TinyBox\\Nozdormu\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TinyBox\\Nozdormu\\NozdormuServiceProvider"
+            ]
+        }
+    }
+}

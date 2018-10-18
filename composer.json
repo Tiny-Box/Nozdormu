@@ -3,13 +3,14 @@
     "description": "A simple voyager db table backup tool",
     "type": "library",
     "license": "MIT",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "Tiny-Box",
             "email": "tinybox.17@gmail.com"
         }
     ],
-    "minimum-stability": "0.1.0",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "TinyBox\\Nozdormu\\": "src/"

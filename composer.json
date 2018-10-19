@@ -3,7 +3,6 @@
     "description": "A simple voyager db table backup tool",
     "type": "library",
     "license": "MIT",
-    "version": "0.1.0",
     "authors": [
         {
             "name": "Tiny-Box",

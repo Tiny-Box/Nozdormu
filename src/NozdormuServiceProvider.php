@@ -4,7 +4,7 @@ namespace TinyBox\Nozdormu;
 
 use Illuminate\Support\ServiceProvider;
 
-class TestServiceProvider extends ServiceProvider
+class NozdormuServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.

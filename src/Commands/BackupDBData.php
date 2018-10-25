@@ -13,14 +13,14 @@ class BackupDBData extends Command
      *
      * @var string
      */
-    protected $signature = 'nozdormu:backup:dbdata';
+    protected $signature = 'voyager:backup:dbdata';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = '';
+    protected $description = 'backup node table you set';
 
     /**
      * Create a new command instance.

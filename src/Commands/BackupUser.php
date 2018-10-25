@@ -13,14 +13,14 @@ class BackupUser extends Command
      *
      * @var string
      */
-    protected $signature = 'nozdormu:backup:user';
+    protected $signature = 'voyager:backup:user';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = '';
+    protected $description = 'backup user table data';
 
     /**
      * Create a new command instance.

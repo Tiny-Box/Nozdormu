@@ -13,14 +13,14 @@ class BackupMenu extends Command
      *
      * @var string
      */
-    protected $signature = 'nozdormu:backup:menu';
+    protected $signature = 'voyager:backup:menu';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = '';
+    protected $description = 'backup voyager menu table data';
 
     /**
      * Create a new command instance.

@@ -13,14 +13,14 @@ class BackupAll extends Command
      *
      * @var string
      */
-    protected $signature = 'nozdormu:backup:all';
+    protected $signature = 'voyager:backup:all';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = '';
+    protected $description = 'backup all voyager settings table';
 
     /**
      * Create a new command instance.

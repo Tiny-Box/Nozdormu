@@ -13,14 +13,14 @@ class BackupSetting extends Command
      *
      * @var string
      */
-    protected $signature = 'nozdormu:backup:setting';
+    protected $signature = 'voyager:backup:setting';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = '';
+    protected $description = 'backup voyager setting table';
 
     /**
      * Create a new command instance.
